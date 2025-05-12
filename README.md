@@ -81,7 +81,7 @@ A análise foca principalmente em:
 2. Instale as dependências:
 
    ```bash
-   pip install pandas matplotlib seaborn qrcode pillow
+   pip install pandas matplotlib seaborn pillow
    ```
 3. Execute o notebook:
 
