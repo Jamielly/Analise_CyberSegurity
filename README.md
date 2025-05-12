@@ -69,15 +69,14 @@ A análise foca principalmente em:
 ## 📎 Arquivos no Repositório
 
 * `cybersecurity_analysis.ipynb`: Notebook com todo o processo de análise.
-* `README.md`: Este arquivo.
 
 ## Como Reproduzir
 
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/Jamielly/CV.git
-   cd CV
+   git clone https://github.com/Jamielly/Analise_CyberSecurity.git
+   cd Analise_CyberSecurity
    ```
 2. Instale as dependências:
 
@@ -87,5 +86,5 @@ A análise foca principalmente em:
 3. Execute o notebook:
 
    ```bash
-   jupyter notebook cybersecurity_analysis.ipynb
+   jupyter notebook cybersecurity.ipynb
    ```
