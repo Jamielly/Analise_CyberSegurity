@@ -4,7 +4,7 @@ Este projeto tem como foco a análise de dados públicos relacionados à **ciber
 
 🔗 [5.12 Cybersecurity Detail - City of Tempe, Arizona](https://data.tempe.gov/datasets/5-12-cybersecurity-detail)
 
-## 🧠 Objetivo do Projeto
+##  Objetivo do Projeto
 
 A proposta central deste repositório é:
 
@@ -13,7 +13,7 @@ A proposta central deste repositório é:
 * Explorar a distribuição temporal das avaliações para entender tendências e evolução.
 * Gerar visualizações claras para apoiar tomadas de decisão baseadas em dados.
 
-## 🧾 Sobre a Base de Dados
+##  Sobre a Base de Dados
 
 A base traz registros periódicos de conformidade cibernética em departamentos públicos da cidade de Tempe, contendo colunas como:
 
@@ -59,7 +59,7 @@ A análise foca principalmente em:
 
    * Gráficos de barras, linhas e heatmaps
 
-## 📊 Exemplos de Análises Feitas
+## Exemplos de Análises Feitas
 
 * Evolução dos Compliance Scores ao longo dos anos
 * Áreas mais críticas (com scores baixos)
@@ -71,7 +71,7 @@ A análise foca principalmente em:
 * `cybersecurity_analysis.ipynb`: Notebook com todo o processo de análise.
 * `README.md`: Este arquivo.
 
-## 🚀 Como Reproduzir
+## Como Reproduzir
 
 1. Clone este repositório:
 
@@ -89,6 +89,3 @@ A análise foca principalmente em:
    ```bash
    jupyter notebook cybersecurity_analysis.ipynb
    ```
-
----
-<p align="center">Made with :heart:</p>
