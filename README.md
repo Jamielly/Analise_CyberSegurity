@@ -1,4 +1,4 @@
-# 📊 Análise de Dados - 5.12 Cybersecurity Detail
+# 📊 Análise de Dados - 5.12 Cybersecurity Detail & Data_Breach_Notifications_Affecting_Washington_Residents
 
 Este projeto tem como foco a análise de dados públicos relacionados à **cibersegurança** no âmbito governamental dos EUA. A base utilizada foi retirada do portal oficial [DATA.GOV](https://data.gov), mais precisamente do seguinte conjunto de dados:
 
