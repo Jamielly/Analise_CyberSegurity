@@ -69,8 +69,6 @@ A análise foca principalmente em:
 ## 📎 Arquivos no Repositório
 
 * `cybersecurity_analysis.ipynb`: Notebook com todo o processo de análise.
-* `banner_cybersecurity.pptx`: Banner em PowerPoint com visual final do projeto.
-* `qr_code_github.png`: QR Code com link para o repositório.
 * `README.md`: Este arquivo.
 
 ## 🚀 Como Reproduzir
