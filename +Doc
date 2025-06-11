@@ -1,0 +1,46 @@
+---
+
+# Mais detalhes da anãlise de Cybersecurity Data Analysis
+
+Este repositório contém um notebook interativo para análise de dados de cibersegurança. O objetivo é realizar uma análise exploratória, limpeza de dados, clustering e regressão, aplicando conceitos de Machine Learning na prática.
+
+## Tecnologias Utilizadas
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Funcionalidades
+- Limpeza de dados e transformação de variáveis
+- Análise exploratória de dados (EDA)
+- Análise de correlação
+- Redução de dimensionalidade com PCA
+- Agrupamento com KMeans
+- Regressão Linear para previsão do Compliance Score
+
+## Estrutura
+- `Cybersecurity_Analysis.ipynb`: Notebook com toda a análise e modelos aplicados
+- `cybersecurity.csv`: Dataset de entrada
+
+## Como Rodar
+1. Clone este repositório
+2. Instale as dependências:
+```
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+3. Execute o notebook no Jupyter ou no VSCode com Jupyter.
+
+## Resultados
+- Mapas de correlação
+- Visualização dos clusters
+- Métricas de regressão (MSE)
+
+## Próximos Passos
+- Refinamento dos modelos
+- Teste com algoritmos supervisionados e não supervisionados adicionais
+- Deploy como API ou dashboard
+
+## 📜 Licença
+MIT License
