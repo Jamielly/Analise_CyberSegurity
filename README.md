@@ -1,87 +1,75 @@
 
-# 📊 Análise de Dados - 5.12 Cybersecurity Detail & Data_Breach_Notifications_Affecting_Washington_Residents
+# 📊 Análise de Dados: Cibersegurança & Violações (Tempe, AZ)
 
-Este projeto tem como foco a análise de dados públicos relacionados à **cibersegurança** no âmbito governamental dos EUA. A base utilizada foi retirada do portal oficial [DATA.GOV](https://data.gov), mais precisamente do seguinte conjunto de dados:
+## Visão Geral do Projeto
 
-🔗 [5.12 Cybersecurity Detail - City of Tempe, Arizona](https://data.tempe.gov/datasets/5-12-cybersecurity-detail)
+Este projeto consiste na análise exploratória de dados públicos de **Cibersegurança** governamental dos EUA, com foco em registros da Cidade de Tempe, Arizona, para investigar padrões de conformidade e vulnerabilidades.
 
-##  Objetivo do Projeto
+O objetivo principal é gerar *insights* visuais a partir do `Compliance Score`, auxiliando na tomada de decisão baseada em dados.
 
-A proposta central deste repositório é:
+---
 
-* Investigar o estado de conformidade cibernética de diferentes áreas administrativas.
-* Identificar padrões e possíveis vulnerabilidades com base no **Compliance Score**.
-* Explorar a distribuição temporal das avaliações para entender tendências e evolução.
-* Gerar visualizações claras para apoiar tomadas de decisão baseadas em dados.
+## Fonte de Dados
 
-##  Sobre a Base de Dados
+Os dados foram extraídos do portal oficial DATA.GOV, utilizando o seguinte conjunto:
 
-A base traz registros periódicos de conformidade cibernética em departamentos públicos da cidade de Tempe, contendo colunas como:
+| Conjunto de Dados | Link |
+| :--- | :--- |
+| **5.12 Cybersecurity Detail** - City of Tempe, Arizona | [🔗 Acessar Data.gov](https://data.tempe.gov/datasets/5-12-cybersecurity-detail) |
 
-* `Area`
-* `Sub-Area`
-* `Compliance_Score`
-* `Score_Notes`
-* `Reporting_Date`
-* `Category`
-* `Status`
-* `Trend`
+## Objetivos e Análises Chave
 
-A análise foca principalmente em:
+A análise focou em responder às seguintes perguntas:
 
-* Distribuição de **Compliance Scores** ao longo do tempo;
-* Departamentos com maiores ou menores índices de conformidade;
-* Categorias de status e tendências mais comuns;
-* Anomalias e outliers.
+* **Conformidade:** Qual a distribuição de `Compliance Scores` ao longo do tempo?
+* **Vulnerabilidades:** Quais áreas administrativas apresentam os menores índices de conformidade?
+* **Tendências:** Houve melhora ou piora na segurança digital ao longo dos anos?
+* **Padrões:** Quais são as categorias de status e tendências mais comuns?
 
-## 🛠️ Ferramentas Utilizadas
+## Tecnologias Utilizadas
+
+O projeto foi desenvolvido inteiramente em Python, utilizando as seguintes bibliotecas:
 
 * `Python`
-* `Pandas`
-* `Matplotlib`
-* `Seaborn`
-* `Jupyter Notebook`
+* `Pandas` (Manipulação de dados)
+* `Matplotlib` e `Seaborn` (Visualização de dados)
+* `Jupyter Notebook` (Ambiente de desenvolvimento)
 
-## 📌 Etapas Realizadas
+## Estrutura do Repositório
 
-1. **Importação e tratamento da base de dados**
-   * Conversão de datas (`Reporting_Date`)
-   * Remoção/tratamento de valores nulos
-2. **Exploração dos dados (EDA)**
-   * `value_counts()`, `groupby()`, análise temporal
-   * Visualizações com `matplotlib` e `seaborn`
-3. **Criação de variáveis derivadas**
-   * Extração de ano/mês
-   * Categorização e agregação
-4. **Visualizações e insights**
-   * Gráficos de barras, linhas e heatmaps
+* `cybersecurity_analysis.ipynb`: Notebook principal com todas as etapas de importação, tratamento, exploração (EDA) e visualizações de dados.
 
-## Exemplos de Análises Feitas
+---
 
-* Evolução dos Compliance Scores ao longo dos anos
-* Áreas mais críticas (com scores baixos)
-* Tendência de melhora ou piora na segurança digital
-* Correlações entre variáveis relevantes
+## Como Reproduzir o Projeto
 
-## 📎 Arquivos no Repositório
+Siga os passos para clonar o repositório e executar a análise em sua máquina:
 
-* `cybersecurity_analysis.ipynb`: Notebook com todo o processo de análise.
+1.  **Clone o Repositório:**
 
-## Como Reproduzir
+    ```bash
+    git clone [https://github.com/Jamielly/Analise_CyberSecurity.git](https://github.com/Jamielly/Analise_CyberSecurity.git)
+    cd Analise_CyberSecurity
+    ```
 
-1. Clone este repositório:
+2.  **Instale as Dependências:**
 
-   ```bash
-   git clone https://github.com/Jamielly/Analise_CyberSecurity.git
-   cd Analise_CyberSecurity
-   ```
-2. Instale as dependências:
+    ```bash
+    pip install pandas matplotlib seaborn pillow jupyter
+    ```
 
-   ```bash
-   pip install pandas matplotlib seaborn pillow
-   ```
-3. Execute o notebook:
+3.  **Execute o Notebook:**
 
-   ```bash
-   jupyter notebook cybersecurity.ipynb
-   ```
+    ```bash
+    jupyter notebook cybersecurity_analysis.ipynb
+    ```
+    
+---
+
+## 📄 Publicação de Pesquisa: Anais do 8º CONPOG
+
+**Ficou curioso(a) e quer conferir o conteúdo do congresso?**
+
+Acesse os **Anais Completos do 8º Congresso de Pós-Graduação (CONPOG)** através do link abaixo:
+
+> **[🔗 Acesse a Publicação Completa (8º CONPOG)](https://drive.google.com/file/d/11P5myHrUh4EWWV6X0FQOZqJJWJgXF0yS/view?usp=sharing)**
